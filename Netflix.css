@@ -1,0 +1,190 @@
+/* Reset and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+/* Background container */
+.background-container {
+    position: relative;
+    height: 100vh; /* Full viewport height */
+    background-image: url('Pics/header-image.png'); /* Add your image */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Dark overlay */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark semi-transparent overlay */
+    z-index: 1;
+}
+
+/* Header styling */
+.head {
+    position: relative;
+    z-index: 2; /* Ensure header is above the overlay */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+/* Netflix logo */
+.logo {
+    width: 200px;
+}
+
+/* Language dropdown */
+.language select {
+    padding: 10px 35px;
+    background-color: #181617;
+    color: #F3F3F3;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    position: absolute;
+    left: 1300px;
+    top: 32px;
+}
+
+/* Sign-in button */
+.sign-button .sign-in {
+    padding: 12px 18px;
+    background-color: #C11119;
+    color: #FEF9F9;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.sign-button .sign-in:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.sign-button .sign-in:active {
+    opacity: 0.8;
+}
+
+/* Netflix title */
+.Netflix-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
+    font-weight: 700;
+}
+
+.title1 {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: "Martel Sans", sans-serif;
+}
+
+.para1{
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
+    font-weight: 700;
+    font-family: "Martel Sans", sans-serif;
+}
+
+.para2{
+
+    font-size: 22px;
+    color: white;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
+    font-family: "Martel Sans", sans-serif;
+}
+.email-box{
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    top: 85%;
+    left: 41%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
+}
+
+.email{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 250px;
+    opacity: 0.6;
+    color: #B2B2B2;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    font-family: "Martel Sans", sans-serif;
+}
+
+
+.button2-box{
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    top: 85%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
+    margin-left: 80px;
+}
+.button2{
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 50px;
+    padding-right: 70px;
+    font-size: 28px;
+    border: none;
+    border-radius: 6px;
+    background-color: #C11119;
+    color: white;
+    font-weight: bold;
+    font-family: "Martel Sans", sans-serif;
+}
+.button2-box:hover{
+    opacity: 0.9;
+}
+.button2{
+    cursor: pointer;
+}
+.button2:active{
+    opacity: 0.8;
+}
+    
+
+    
+
+
+
+
